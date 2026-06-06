@@ -80,6 +80,9 @@
     "update-packages": "npx -y npm-check-updates --upgrade && cd src-editor && npx -y npm-check-updates --upgrade && cd ../src-chart && npx -y npm-check-updates --upgrade && cd ../src-preview && npx -y npm-check-updates --upgrade && cd ../src-widgets && npx -y npm-check-updates --upgrade && cd ../src-devices && npx -y npm-check-updates --upgrade",
     "npm": "npm i && cd src-editor && npm i -f && cd ../src-chart && npm i -f && cd ../src-preview && npm i -f && cd ../src-widgets && npm i -f && cd ../src-devices && npm i -f"
   },
+  "overrides": {
+    "@iobroker/socket-client": "github:SimonFischer04/socket-client#dist"
+  },
   "bugs": {
     "url": "https://github.com/ioBroker/ioBroker.echarts/issues"
   },
