@@ -1,2 +1,2 @@
 // Just simulate file of web adapter
-var socketUrl = ''; var socketSession = ''; window._authIoBroker = false; window.sysLang = 'en'; window.socketForceWebSockets = false;
+var socketUrl = ''; var socketPath = '/web/'; var socketSession = ''; window._authIoBroker = false; window.sysLang = 'en'; window.socketForceWebSockets = false;
