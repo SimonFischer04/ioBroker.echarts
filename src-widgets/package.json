@@ -4,7 +4,7 @@
     "version": "3.0.0",
     "type": "module",
     "dependencies": {
-        "@iobroker/adapter-react-v5": "^8.0.21",
+        "@iobroker/adapter-react-v5": "github:SimonFischer04/adapter-react-v5#fix-reverse-proxy",
         "@iobroker/types-vis-2": "^2.13.8",
         "@module-federation/runtime": "^2.0.1",
         "@module-federation/vite": "^1.11.0",
@@ -40,8 +40,5 @@
         "not dead",
         "not ie <= 11",
         "not op_mini all"
-    ],
-    "overrides": {
-        "@iobroker/socket-client": "github:SimonFischer04/socket-client#dist"
-    }
+    ]
 }
